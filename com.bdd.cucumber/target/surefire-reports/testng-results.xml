@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="3867" started-at="2019-09-17T06:30:01Z" finished-at="2019-09-17T06:30:05Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runnerClass.TestRunner@724af044]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Surefire test" duration-ms="3867" started-at="2019-09-17T06:30:01Z" finished-at="2019-09-17T06:30:05Z">
+      <class name="runnerClass.TestRunner">
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:runnerClass.TestRunner@724af044]" name="generateReport" is-config="true" duration-ms="46" started-at="2019-09-17T12:00:01Z" finished-at="2019-09-17T12:00:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runnerClass.TestRunner@724af044]" name="setUpClass" is-config="true" duration-ms="149" started-at="2019-09-17T12:00:01Z" finished-at="2019-09-17T12:00:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runnerClass.TestRunner@724af044]" name="feature" duration-ms="217" started-at="2019-09-17T12:00:01Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-09-17T12:00:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[This feature file is to verify to temperature conversion from centigrade to Fahrenheit value using standard java program.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runnerClass.TestRunner@724af044]" name="feature" duration-ms="3180" started-at="2019-09-17T12:00:01Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-09-17T12:00:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[This feature file is to verify the service based searching of Git Hub repos using a search keyword.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runnerClass.TestRunner@724af044]" name="tearDownClass" is-config="true" duration-ms="211" started-at="2019-09-17T12:00:04Z" finished-at="2019-09-17T12:00:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runnerClass.TestRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

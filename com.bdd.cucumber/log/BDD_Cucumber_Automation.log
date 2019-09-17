@@ -1,0 +1,9 @@
+17/09/2019 12:23:45  Centigrade Equivalent Fahrenheit value is: 95.0
+17/09/2019 12:23:45  Centigrade Equivalent Fahrenheit Value 95.0 matched successfully
+17/09/2019 12:23:48  Searching github repository using a search keyword angular4, has recieved a response code as: 200
+17/09/2019 12:23:51  Searching github repository using a search keyword Java, has recieved a response code as: 200
+17/09/2019 12:24:16  Temperature conversion site is successfully launched
+17/09/2019 12:24:16  Centigrade value is entered in webpage
+17/09/2019 12:24:16  Temperature Convert button is clicked
+17/09/2019 12:24:16  The Actual Converted Fahrenheit Value : 95.0 is matched with expected Fahrenheit Value 95.0
+17/09/2019 12:24:17  Close the browser
